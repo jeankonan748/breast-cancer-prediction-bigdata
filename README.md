@@ -77,11 +77,15 @@ Binary Supervised Classification.
 
 ## 🔄 Project Pipeline
 
-<div align="center">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Machine_learning_workflow.svg" width="600"/>
-
-</div>
+```mermaid
+flowchart TD
+    A[Dataset] --> B[Data Cleaning]
+    B --> C[Feature Scaling]
+    C --> D[ML Models]
+    C --> E[Deep Learning Model]
+    D --> F[Evaluation]
+    E --> F
+    F --> G[Model Comparison]
 
 ```text
 Data Collection
