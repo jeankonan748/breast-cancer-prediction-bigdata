@@ -88,17 +88,82 @@ flowchart TD
     E --> F
     F --> G[Model Comparison]
 
-```text
-Data Collection
-      ↓
-Data Cleaning
-      ↓
-Feature Scaling
-      ↓
-ML Training
-      ↓
-DL Training
-      ↓
-Evaluation
-      ↓
-Model Comparison
+```
+
+## 🤖 Models Implemented
+
+- Machine Learning
+
+- Logistic Regression
+
+- Support Vector Machine
+
+- Random Forest
+
+## 📈 Evaluation Metrics
+
+- Accuracy
+
+- Precision
+
+- Recall
+
+- F1-Score
+
+- ROC-AUC
+
+- Confusion Matrix
+
+- Stratified Cross-Validation
+
+## 🛠 Tech Stack
+
+- Python
+
+- Pandas
+
+- NumPy
+
+- Scikit-learn
+
+- TensorFlow / Keras
+
+- XGBoost
+
+- Matplotlib
+
+- Seaborn
+
+- Jupyter Notebook
+
+## 🚀 Installation
+
+
+or ``conda``::
+
+    git clone https://github.com/your-username/breast-cancer-prediction.git
+    cd breast-cancer-prediction
+    pip install -r requirements.txt
+    jupyter notebook
+
+    
+## 🎓 Research Contribution
+
+Comparative study between ML and DL
+
+Robust evaluation via cross-validation
+
+Feature importance analysis
+
+Reproducible AI pipeline
+
+## 📄 License
+
+MIT License
+
+<div align="center">
+👨‍💻 Developed by Jean KONAN
+
+Master 2 – Big Data & Artificial Intelligence
+
+</div> ```
