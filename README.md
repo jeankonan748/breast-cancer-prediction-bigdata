@@ -166,4 +166,4 @@ MIT License
 
 Master 2 – Big Data & Artificial Intelligence
 
-</div> ```
+</div>
